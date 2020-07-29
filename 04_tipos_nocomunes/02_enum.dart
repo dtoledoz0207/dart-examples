@@ -1,0 +1,19 @@
+
+
+main() {
+
+  Audio volumen = Audio.bajo;
+
+  switch(volumen) {
+    case Audio.bajo: print('Volumen bajo'); break;
+    case Audio.medio: print('Volumen medio'); break;
+    case Audio.alto: print('Volumen ALTO'); break;
+  }
+
+}
+
+enum Audio {
+  bajo,
+  medio,
+  alto
+}
